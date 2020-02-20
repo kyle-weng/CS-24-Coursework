@@ -1,0 +1,2 @@
+jvm:
+    script: "/testers/cs24/project01/jvm/test"

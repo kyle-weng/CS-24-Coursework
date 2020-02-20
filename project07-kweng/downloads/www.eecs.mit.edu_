@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7]><html class="iem7" lang="en" dir="ltr"><![endif]-->
+<!--[if (lte IE 6)&(!IEMobile)]><html class="ie6 ie6-7 ie6-8" lang="en" dir="ltr"><![endif]-->
+<!--[if (IE 7)&(!IEMobile)]><html class="ie7 ie6-7 ie6-8" lang="en" dir="ltr"><![endif]-->
+<!--[if (IE 8)&(!IEMobile)]><html class="ie8 ie6-8" lang="en" dir="ltr"><![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)]><!--><html lang="en" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"><!--<![endif]-->
+<head>
+<meta charset="utf-8" />
+<link rel="shortcut icon" href="http://www.eecs.mit.edu/sites/all/themes/adaptivetheme/miteecs_adaptive_production/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="MobileOptimized" content="width">
+<meta name="HandheldFriendly" content="true">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta http-equiv="cleartype" content="on">
+<!--<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">-->
+<title>Homepage | MIT EECS</title>
+<link href='//fonts.googleapis.com/css?family=Lato:400,700,900,400italic,700italic' rel='stylesheet' type='text/css'>
+<link type="text/css" rel="stylesheet" href="http://www.eecs.mit.edu/sites/default/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.eecs.mit.edu/sites/default/files/css/css_ytO_lfnJ8UJgMQS9Ikq0cmOhqihKXSWPwsyVwuEMhsg.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.eecs.mit.edu/sites/default/files/css/css_C9a4nsE44pcDSpyRSrKCrQ8yI5JrLkAYIQvPFgKpGQw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.eecs.mit.edu/sites/default/files/css/css_tDOWmjJrQ8sBah19B_MyYjq-JiR_Ofr0c2HYORp10ys.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.eecs.mit.edu/sites/default/files/css/css_5_EBsvYf_U3gqgv1Idal1sImw7zcXB1kaIR6NOugp8o.css" media="print" />
+<link type="text/css" rel="stylesheet" href="http://www.eecs.mit.edu/sites/default/files/css/css_47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU.css" media="all" />
+<link type="text/css" rel="stylesheet" href='/sites/all/themes/adaptivetheme/miteecs_adaptive_production/css/fb3aa26.css' media="all" />
+<!--[if IE 9]><link type="text/css" rel="stylesheet" href='/sites/all/themes/adaptivetheme/miteecs_adaptive_production/css/427a8c1.css' media="all" /><![endif]-->
+<!--[if IE 8]><link type="text/css" rel="stylesheet" href='/sites/all/themes/adaptivetheme/miteecs_adaptive_production/css/676af6c.css' media="all" /><![endif]-->
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+<body class="html front not-logged-in no-sidebars" data-init="homepage">
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="page">
+
+  
+	<div id="header">
+
+
+			<div id="headerContent">
+ <!--<div id="logo"><a href="/"><img src="/sites/all/themes/adaptivetheme/miteecs_adaptive/images/structure/logo.png"></a></div> -->
+
+  <div id="logo">  
+   <!-- added 04-26-15 APH - adapted from http://18.48.0.217:292/projects/logo-demo/eecs.html --> 
+                    <div id="logo-holder-small">
+                       <div id="MIT-logo-small"><a href="http://web.mit.edu" style="display:block;"></a></div>
+
+                        <div id="divider-small"></div>
+
+                        <div id="EECS-logo-web-small"><a href="/" style="display:block;"></a></div>
+
+                    </div>
+                </div>
+
+				<div id="search">
+				  <div class="region region-header">
+    <nav id="block-menu-menu-header-menu" class="block block-menu" role="navigation">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">Header Menu</h2>
+            <div class="block-content content">
+      <ul class="menu clearfix"><li class="first leaf"><a href="/about-us" title=""><span>About</span></a></li><li class="leaf"><a href="/contact" title=""><span>Contact</span></a></li><li class="expanded"><a href="/quick-links" title="Links you want to get to quickly"><span>Quick Links</span></a><ul class="menu clearfix"><li class="first leaf"><a href="https://eecs.scripts.mit.edu/eduportal/who_is_teaching_what/S/2020/" title="Who is Teaching What Spring 2020"><span>Whos Teaching What</span></a></li><li class="leaf"><a href="http://www.eecs.mit.edu/academics-admissions/academic-information/subject-updates-fall-2019" title="Current term class updates"><span>EECS Course UPDATES</span></a></li><li class="leaf"><a href="http://web.mit.edu" title="MIT Home Page"><span>MIT</span></a></li><li class="leaf"><a href="http://calendars.mit.edu/eecs" title="EECS Rooms Calendar - Certificates required; restricted for EECS Department use"><span>EECS Rooms</span></a></li><li class="leaf"><a href="http://www.eecs.mit.edu/resources/faculty-positions-beginning-september-2015" title="Faculty candidates interested in application with MIT Electrical Engineering and Computer Science should visit this page."><span>Faculty positions in MIT EECS </span></a></li><li class="last leaf"><a href="http://www.eecs.mit.edu/jobs" title=""><span>Jobs</span></a></li></ul></li><li class="leaf"><a href="/resources" title=""><span>Resources</span></a></li><li class="leaf"><a href="/user/login" title=""><span>Login</span></a></li><li class="leaf"><a href="http://www.facebook.com/EECS.MIT " class="facebook" target="_blank"></a><a href="https://twitter.com/#!/MITEECS " class="twitter" target="_blank"></a></li><li class="last leaf"><a href="http://www.eecs.mit.edu/rss.xml " class="rss" target="_blank"></a></li></ul>    </div>
+  </div>
+</nav>
+<div id="block-search-form" class="block block-search" role="search">
+  <div class="block-inner clearfix">
+                <div class="block-content content">
+      <form action="/" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="search" id="edit-search-block-form--2" name="search_block_form" value="search" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-RZmA58jAu2yrQeNoKXaOZGK1fIeBXge47sXbXAp45JI" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>    </div>
+  </div>
+</div>
+  </div>
+				</div>
+			<div id="mainNav">
+								  <div id="menu-bar" class="nav clearfix">
+      <nav id="block-menu-block-1" class="block block-menu-block clearfix" role="navigation">
+              <h2 class="block-title element-invisible">Main menu</h2>
+            <div class="menu-wrapper clearfix"><div class="menu-block-wrapper menu-block-1 menu-name-main-menu parent-mlid-0 menu-level-1">
+  <ul class="menu clearfix"><li class="first leaf menu-mlid-1183"><a href="/research"><span>Research</span></a></li><li class="expanded menu-mlid-1328"><a href="/academics-admissions"><span>Academics & Admissions</span></a><ul class="menu clearfix"><li class="first leaf has-children menu-mlid-1976"><a href="/academics-admissions/academic-information" title="For current and prospective students - check the latest subject updates and information about who is teaching each subjects info by semester"><span>Academic Information</span></a></li><li class="leaf has-children menu-mlid-1332"><a href="/academics-admissions/undergraduate-programs" title="the homepage for the MIT Electrical Engineering and Computer Science Department Undergraduate Programs"><span>Undergraduate Programs</span></a></li><li class="leaf has-children menu-mlid-1331"><a href="/academics-admissions/graduate-program" title="The EECS Graduate Program is home to nearly 700 students who working with our world class faculty members create tomorrow&#039;s technologies and fundamental science."><span>Graduate Program</span></a></li><li class="leaf menu-mlid-3061"><a href="/academics-admissions/research-interests-faculty-non-faculty-supervisors" title="Faculty and non-faculty supervisor research interests in the MIT EECS Department"><span>Research Interests: Faculty & Non-Faculty Supervisors</span></a></li><li class="leaf menu-mlid-2092"><a href="https://eecs.scripts.mit.edu/eduportal/who_is_teaching_what/S/2019/" title="Find out what faculty member is teaching what class for the current semester"><span>Who's Teaching What</span></a></li><li class="leaf menu-mlid-2290"><a href="/academics-admissions/program-objectives"><span>Program Objectives</span></a></li><li class="last leaf menu-mlid-5508"><a href="/node/6944" title=""><span>Faculty positions</span></a></li></ul></li><li class="expanded menu-mlid-1327"><a href="/people" title="MIT EECS people"><span>People</span></a><ul class="menu clearfix"><li class="first leaf menu-mlid-618"><a href="/people/faculty-advisors" title=""><span>Faculty</span></a></li><li class="leaf menu-mlid-1325"><a href="/people/staff" title="EECS Staff"><span>Staff</span></a></li><li class="leaf has-children menu-mlid-1326"><a href="/people/alumni"><span>Alumni</span></a></li><li class="leaf menu-mlid-1329"><a href="/people/student-groups"><span>Student Groups</span></a></li><li class="last leaf menu-mlid-6133"><a href="/people/lecturer" title=""><span>Lecturers</span></a></li></ul></li><li class="expanded menu-mlid-1191"><a href="/news-events" title=""><span>News & Events</span></a><ul class="menu clearfix"><li class="first leaf has-children menu-mlid-1192"><a href="/news-events/media"><span>In the Media</span></a></li><li class="leaf has-children menu-mlid-1219"><a href="/news-events/announcements"><span>Announcements</span></a></li><li class="leaf has-children menu-mlid-1211"><a href="/news-events/calendar" title=""><span>Calendar</span></a></li><li class="leaf menu-mlid-5411"><a href="/awards"><span>EECS Celebrates Awards</span></a></li><li class="last leaf menu-mlid-2423"><a href="/news-events/eecs-annual-publication-connector" title="The EECS Department is pleased to share the Connector, our annual publication for alumni and friends of the department."><span>EECS Annual Publication: The Connector</span></a></li></ul></li><li class="last expanded menu-mlid-1248"><a href="/outreach" title="Outreach in EECS means a lot of things -- all opportunities for learning new things."><span>Outreach</span></a><ul class="menu clearfix"><li class="first leaf menu-mlid-1483"><a href="/outreach/industrial-connection-program" title="Industrial Connection Program, ICP"><span>Industrial Connection Program</span></a></li><li class="leaf menu-mlid-1485"><a href="http://vi-a.mit.edu/" title="MIT’s Department of Electrical Engineering and Computer Science VI-A M.Eng. Thesis Program matches industry mentors with EECS undergraduate and M.Eng. students who have demonstrated excellent academic preparation and motivation."><span>VI-A MEng. Thesis Program</span></a></li><li class="leaf menu-mlid-3055"><a href="/outreach/mit-international-science-technology-initiatives-misti" title="Check out MISTI, MIT International Science &amp; Technology Initiatives"><span>MIT International Science & Technology Initiatives (MISTI)</span></a></li><li class="leaf menu-mlid-1618"><a href="/outreach/womens-technology-program" title="The Women&#039;s Technology Program (WTP) was created in 2002 to encourage young women with strong math, science, and analytical abilities to pursue studies in engineering and computer science. The program provides young women with positive female role models, college-level computing and engineering experience, and an understanding of what engineers and computer scientists do and how they work."><span>Women's Technology Program</span></a></li><li class="leaf menu-mlid-5409"><a href="/masterworks"><span>EECS Masterworks</span></a></li><li class="leaf menu-mlid-6161"><a href="/news-events/announcements/faculty-position-linguistics-philosophy-mit-schwarzman-college-computing"><span>Faculty Position: Linguistics & Philosophy / MIT Schwarzman College of Computing</span></a></li><li class="leaf menu-mlid-5507"><a href="/resources/faculty-positions"><span>EECS Faculty Positions Beginning July 2020</span></a></li><li class="last leaf menu-mlid-6158"><a href="/news-events/announcements/faculty-positions-mit-department-brain-cognitive-sciences"><span>Faculty Positions, MIT Department of Brain & Cognitive Sciences</span></a></li></ul></li></ul></div>
+</div>
+  </nav>
+  </div>
+			</div>
+			<div style="display:none">
+							</div>
+								
+		</div><!--/#headerContent-->
+	</div><!--/#header-->
+
+
+	<div id="slideDownNav">
+		<div id="slideDownContents">
+			<div id="utilityNav">
+				  <div class="region region-header">
+      <div class="region region-header">
+    <nav id="block-menu-menu-header-menu" class="block block-menu" role="navigation">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">Header Menu</h2>
+            <div class="block-content content">
+      <ul class="menu clearfix"><li class="first leaf"><a href="/about-us" title=""><span>About</span></a></li><li class="leaf"><a href="/contact" title=""><span>Contact</span></a></li><li class="expanded"><a href="/quick-links" title="Links you want to get to quickly"><span>Quick Links</span></a><ul class="menu clearfix"><li class="first leaf"><a href="https://eecs.scripts.mit.edu/eduportal/who_is_teaching_what/S/2020/" title="Who is Teaching What Spring 2020"><span>Whos Teaching What</span></a></li><li class="leaf"><a href="http://www.eecs.mit.edu/academics-admissions/academic-information/subject-updates-fall-2019" title="Current term class updates"><span>EECS Course UPDATES</span></a></li><li class="leaf"><a href="http://web.mit.edu" title="MIT Home Page"><span>MIT</span></a></li><li class="leaf"><a href="http://calendars.mit.edu/eecs" title="EECS Rooms Calendar - Certificates required; restricted for EECS Department use"><span>EECS Rooms</span></a></li><li class="leaf"><a href="http://www.eecs.mit.edu/resources/faculty-positions-beginning-september-2015" title="Faculty candidates interested in application with MIT Electrical Engineering and Computer Science should visit this page."><span>Faculty positions in MIT EECS </span></a></li><li class="last leaf"><a href="http://www.eecs.mit.edu/jobs" title=""><span>Jobs</span></a></li></ul></li><li class="leaf"><a href="/resources" title=""><span>Resources</span></a></li><li class="leaf"><a href="/user/login" title=""><span>Login</span></a></li><li class="leaf"><a href="http://www.facebook.com/EECS.MIT " class="facebook" target="_blank"></a><a href="https://twitter.com/#!/MITEECS " class="twitter" target="_blank"></a></li><li class="last leaf"><a href="http://www.eecs.mit.edu/rss.xml " class="rss" target="_blank"></a></li></ul>    </div>
+  </div>
+</nav>
+<div id="block-search-form" class="block block-search" role="search">
+  <div class="block-inner clearfix">
+                <div class="block-content content">
+      <form action="/" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="search" id="edit-search-block-form--2" name="search_block_form" value="search" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-RZmA58jAu2yrQeNoKXaOZGK1fIeBXge47sXbXAp45JI" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>    </div>
+  </div>
+</div>
+  </div>
+  </div>
+			</div><!--/#utilityNav-->
+			<div id="mainNav">
+				  <div id="menu-bar" class="nav clearfix">
+      <div id="menu-bar" class="nav clearfix">
+      <nav id="block-menu-block-1" class="block block-menu-block clearfix" role="navigation">
+              <h2 class="block-title element-invisible">Main menu</h2>
+            <div class="menu-wrapper clearfix"><div class="menu-block-wrapper menu-block-1 menu-name-main-menu parent-mlid-0 menu-level-1">
+  <ul class="menu clearfix"><li class="first leaf menu-mlid-1183"><a href="/research"><span>Research</span></a></li><li class="expanded menu-mlid-1328"><a href="/academics-admissions"><span>Academics & Admissions</span></a><ul class="menu clearfix"><li class="first leaf has-children menu-mlid-1976"><a href="/academics-admissions/academic-information" title="For current and prospective students - check the latest subject updates and information about who is teaching each subjects info by semester"><span>Academic Information</span></a></li><li class="leaf has-children menu-mlid-1332"><a href="/academics-admissions/undergraduate-programs" title="the homepage for the MIT Electrical Engineering and Computer Science Department Undergraduate Programs"><span>Undergraduate Programs</span></a></li><li class="leaf has-children menu-mlid-1331"><a href="/academics-admissions/graduate-program" title="The EECS Graduate Program is home to nearly 700 students who working with our world class faculty members create tomorrow&#039;s technologies and fundamental science."><span>Graduate Program</span></a></li><li class="leaf menu-mlid-3061"><a href="/academics-admissions/research-interests-faculty-non-faculty-supervisors" title="Faculty and non-faculty supervisor research interests in the MIT EECS Department"><span>Research Interests: Faculty & Non-Faculty Supervisors</span></a></li><li class="leaf menu-mlid-2092"><a href="https://eecs.scripts.mit.edu/eduportal/who_is_teaching_what/S/2019/" title="Find out what faculty member is teaching what class for the current semester"><span>Who's Teaching What</span></a></li><li class="leaf menu-mlid-2290"><a href="/academics-admissions/program-objectives"><span>Program Objectives</span></a></li><li class="last leaf menu-mlid-5508"><a href="/node/6944" title=""><span>Faculty positions</span></a></li></ul></li><li class="expanded menu-mlid-1327"><a href="/people" title="MIT EECS people"><span>People</span></a><ul class="menu clearfix"><li class="first leaf menu-mlid-618"><a href="/people/faculty-advisors" title=""><span>Faculty</span></a></li><li class="leaf menu-mlid-1325"><a href="/people/staff" title="EECS Staff"><span>Staff</span></a></li><li class="leaf has-children menu-mlid-1326"><a href="/people/alumni"><span>Alumni</span></a></li><li class="leaf menu-mlid-1329"><a href="/people/student-groups"><span>Student Groups</span></a></li><li class="last leaf menu-mlid-6133"><a href="/people/lecturer" title=""><span>Lecturers</span></a></li></ul></li><li class="expanded menu-mlid-1191"><a href="/news-events" title=""><span>News & Events</span></a><ul class="menu clearfix"><li class="first leaf has-children menu-mlid-1192"><a href="/news-events/media"><span>In the Media</span></a></li><li class="leaf has-children menu-mlid-1219"><a href="/news-events/announcements"><span>Announcements</span></a></li><li class="leaf has-children menu-mlid-1211"><a href="/news-events/calendar" title=""><span>Calendar</span></a></li><li class="leaf menu-mlid-5411"><a href="/awards"><span>EECS Celebrates Awards</span></a></li><li class="last leaf menu-mlid-2423"><a href="/news-events/eecs-annual-publication-connector" title="The EECS Department is pleased to share the Connector, our annual publication for alumni and friends of the department."><span>EECS Annual Publication: The Connector</span></a></li></ul></li><li class="last expanded menu-mlid-1248"><a href="/outreach" title="Outreach in EECS means a lot of things -- all opportunities for learning new things."><span>Outreach</span></a><ul class="menu clearfix"><li class="first leaf menu-mlid-1483"><a href="/outreach/industrial-connection-program" title="Industrial Connection Program, ICP"><span>Industrial Connection Program</span></a></li><li class="leaf menu-mlid-1485"><a href="http://vi-a.mit.edu/" title="MIT’s Department of Electrical Engineering and Computer Science VI-A M.Eng. Thesis Program matches industry mentors with EECS undergraduate and M.Eng. students who have demonstrated excellent academic preparation and motivation."><span>VI-A MEng. Thesis Program</span></a></li><li class="leaf menu-mlid-3055"><a href="/outreach/mit-international-science-technology-initiatives-misti" title="Check out MISTI, MIT International Science &amp; Technology Initiatives"><span>MIT International Science & Technology Initiatives (MISTI)</span></a></li><li class="leaf menu-mlid-1618"><a href="/outreach/womens-technology-program" title="The Women&#039;s Technology Program (WTP) was created in 2002 to encourage young women with strong math, science, and analytical abilities to pursue studies in engineering and computer science. The program provides young women with positive female role models, college-level computing and engineering experience, and an understanding of what engineers and computer scientists do and how they work."><span>Women's Technology Program</span></a></li><li class="leaf menu-mlid-5409"><a href="/masterworks"><span>EECS Masterworks</span></a></li><li class="leaf menu-mlid-6161"><a href="/news-events/announcements/faculty-position-linguistics-philosophy-mit-schwarzman-college-computing"><span>Faculty Position: Linguistics & Philosophy / MIT Schwarzman College of Computing</span></a></li><li class="leaf menu-mlid-5507"><a href="/resources/faculty-positions"><span>EECS Faculty Positions Beginning July 2020</span></a></li><li class="last leaf menu-mlid-6158"><a href="/news-events/announcements/faculty-positions-mit-department-brain-cognitive-sciences"><span>Faculty Positions, MIT Department of Brain & Cognitive Sciences</span></a></li></ul></li></ul></div>
+</div>
+  </nav>
+  </div>
+  </div>
+			</div>
+		</div><!--/#slideDownContents-->
+		<div id="menuTab">
+			<a href="#">Sections</a>
+		</div>
+	</div><!--/#slideDownNav-->
+
+  <div id="columns">
+	<div class="columns-inner clearfix">
+		<div id="content-column" class="main">
+		    
+			<div id="masonaryContainer" class="content-inner masonary-content">
+
+      
+            <section id="main-content" role="main">
+
+                          <header>
+            
+                      </header>
+                
+        <div id="content">  <div class="region region-content">
+    <div id="block-system-main" class="block block-system masonry-block">
+  <div class="block-inner clearfix">
+                <div class="block-content content">
+      
+<div class="view view-cards view-id-cards view-display-id-homepage masonary-content view-dom-id-55592941807cd70ec534b5aa8578c677">
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul class="homepage-list"><li class="mission-statement views-row">
+    <h1>Electrical Engineering <span>&amp;</span> Computer Science</h1>
+    EECS is everywhere. We combine the rigor of science, the power of engineering, and the thrill of discovery. Our students change the world.    </li>    		      <li class="views-row views-row-1 views-row-odd views-row-first card-wide">
+	    
+          <a href="http://www.eecs.mit.edu/news-events/announcements/restructuring-eecs"><img typeof="foaf:Image" src="http://www.eecs.mit.edu/sites/default/files/cards/images-wide/mit-eecs-faculty-heads_0.jpg" width="639" height="426" alt="" /></a>    
+  <div class="views-field views-field-field-card-video">        <div class="field-content"></div>  </div>  
+  <div>        <span class="card-title"><a href="http://www.eecs.mit.edu/news-events/announcements/restructuring-eecs" class="card-color-black">Restructuring EECS</a></span>  </div>  
+  <div class="views-field views-field-field-card-description">        <div class="field-content">The Institute&#039;s largest academic department reorganizes with new leadership as part of the formation of the MIT Schwarzman College of Computing. Clockwise from top left: Asu Ozdaglar, Joel Voldman, Arvind, and Antonio Torralba.</div>  </div></li>
+    		      <li data-month="Nov 2019" class="views-row views-row-2 views-row-even card-wide">
+	    
+          <a href="http://www.eecs.mit.edu/news-events/announcements/three-eecs-students-are-named-2020-rhodes-scholars"><img typeof="foaf:Image" src="http://www.eecs.mit.edu/sites/default/files/cards/images-wide/EECS_Rhodes_2020_Large.jpg" width="750" height="594" alt="" /></a>    
+  <div class="views-field views-field-field-card-video">        <div class="field-content"></div>  </div>  
+  <div>        <span class="card-title"><a href="http://www.eecs.mit.edu/news-events/announcements/three-eecs-students-are-named-2020-rhodes-scholars" class="card-color-black">Three EECS students are named 2020 Rhodes Scholars</a></span>  </div>  
+  <div class="views-field views-field-field-card-description">        <div class="field-content">Francisca Vasconcelos, Billy Woltz, and Megan Yamoah will begin postgraduate studies at Oxford University next fall.
+</div>  </div></li>
+    		      <li class="views-row views-row-3 views-row-odd card-wide">
+	    
+          <a href="http://www.eecs.mit.edu/news-events/announcements/what-makes-image-memorable-ask-computer"><img typeof="foaf:Image" src="http://www.eecs.mit.edu/sites/default/files/cards/images-wide/GANimages2.jpg" width="534" height="426" alt="" /></a>    
+  <div class="views-field views-field-field-card-video">        <div class="field-content"></div>  </div>  
+  <div>        <span class="card-title"><a href="http://www.eecs.mit.edu/news-events/announcements/what-makes-image-memorable-ask-computer" class="card-color-black">What makes an image memorable? Ask a computer</a></span>  </div>  
+  <div class="views-field views-field-field-card-description">        <div class="field-content">An artificial intelligence model shows in striking detail what makes some images stick in our minds.</div>  </div></li>
+    		      <li class="views-row views-row-4 views-row-even card-wide">
+	    
+          <a href="http://www.eecs.mit.edu/news-events/announcements/drawn-open-ended-problems"><img typeof="foaf:Image" src="http://www.eecs.mit.edu/sites/default/files/cards/images-wide/MIT-Woltz.jpg" width="639" height="426" alt="" /></a>    
+  <div class="views-field views-field-field-card-video">        <div class="field-content"></div>  </div>  
+  <div>        <span class="card-title"><a href="http://www.eecs.mit.edu/news-events/announcements/drawn-open-ended-problems" class="card-color-black">Drawn to open-ended problems</a></span>  </div>  
+  <div class="views-field views-field-field-card-description">        <div class="field-content">Whether racing cross country or teaching coding in rural schools, senior Billy Woltz relishes experimentation and creative thinking.</div>  </div></li>
+    		      <li class="views-row views-row-5 views-row-odd card-wide">
+	    
+          <a href="http://www.eecs.mit.edu/news-events/announcements/mits-rising-stars-eecs-2019"><img typeof="foaf:Image" src="http://www.eecs.mit.edu/sites/default/files/cards/images-wide/MIT_2019_RisingStars.jpg" width="3000" height="2000" alt="" /></a>    
+  <div class="views-field views-field-field-card-video">        <div class="field-content"></div>  </div>  
+  <div>        <span class="card-title"><a href="http://www.eecs.mit.edu/news-events/announcements/mits-rising-stars-eecs-2019" class="card-color-black">MIT&#039;s Rising Stars in EECS for 2019</a></span>  </div>  
+  <div class="views-field views-field-field-card-description">        <div class="field-content">The four were among 90 participants selected for the academic-careers workshop held at the University of Illinois at Urbana-Champaign. </div>  </div></li>
+    		      <li class="views-row views-row-6 views-row-even card-wide">
+	    
+          <a href="http://www.eecs.mit.edu/news-events/announcements/five-eecs-graduate-students-are-named-siebel-scholars-2020"><img typeof="foaf:Image" src="http://www.eecs.mit.edu/sites/default/files/cards/images-wide/Siebel_Scholars_2019_EECS.jpg" width="5002" height="3335" alt="" /></a>    
+  <div class="views-field views-field-field-card-video">        <div class="field-content"></div>  </div>  
+  <div>        <span class="card-title"><a href="http://www.eecs.mit.edu/news-events/announcements/five-eecs-graduate-students-are-named-siebel-scholars-2020" class="card-color-black">Five EECS graduate students are named Siebel Scholars for 2020</a></span>  </div>  
+  <div class="views-field views-field-field-card-description">        <div class="field-content">They are among 16 MIT students selected for the prestigious award from the Siebel Scholars Foundation. </div>  </div></li>
+    		      <li data-month="Oct 2019" class="views-row views-row-7 views-row-odd card-wide">
+	    
+          <a href="http://www.eecs.mit.edu/news-events/announcements/better-fact-checking-fake-news"><img typeof="foaf:Image" src="http://www.eecs.mit.edu/sites/default/files/cards/images-wide/MIT%20professor%20Regina%20Barzilay%20and%20CSAIL%20PhD%20student%20Tal%20Schuster-1.jpg" width="617" height="426" alt="" /></a>    
+  <div class="views-field views-field-field-card-video">        <div class="field-content"></div>  </div>  
+  <div>        <span class="card-title"><a href="http://www.eecs.mit.edu/news-events/announcements/better-fact-checking-fake-news" class="card-color-black">Better fact-checking for fake news</a></span>  </div>  
+  <div class="views-field views-field-field-card-description">        <div class="field-content">New research reveals biases in fake news datasets and improves the use of automatic detectors.</div>  </div></li>
+    		      <li class="views-row views-row-8 views-row-even card-wide">
+	    
+          <a href="http://www.eecs.mit.edu/news-events/announcements/faster-video-recognition-smartphone-era"><img typeof="foaf:Image" src="http://www.eecs.mit.edu/sites/default/files/cards/images-wide/Dario%20Gil.jpg" width="420" height="284" alt="" /></a>    
+  <div class="views-field views-field-field-card-video">        <div class="field-content"></div>  </div>  
+  <div>        <span class="card-title"><a href="http://www.eecs.mit.edu/news-events/announcements/faster-video-recognition-smartphone-era" class="card-color-black">Faster video recognition for the smartphone era</a></span>  </div>  
+  <div class="views-field views-field-field-card-description">        <div class="field-content">MIT and IBM researchers offer a new method to train and run deep learning models more efficiently.</div>  </div></li>
+    		      <li class="views-row views-row-9 views-row-odd card-wide">
+	    
+          <a href="http://www.eecs.mit.edu/news-events/announcements/using-machine-learning-hunt-down-cybercriminals"><img typeof="foaf:Image" src="http://www.eecs.mit.edu/sites/default/files/cards/images-wide/David-Clark-Cecilia-Testart-Philipp-Richter-photo-by-Jason-Dorfman-MIT-CSAIL_0.jpg" width="638" height="425" alt="" /></a>    
+  <div class="views-field views-field-field-card-video">        <div class="field-content"></div>  </div>  
+  <div>        <span class="card-title"><a href="http://www.eecs.mit.edu/news-events/announcements/using-machine-learning-hunt-down-cybercriminals" class="card-color-black">Using machine learning to hunt down cybercriminals</a></span>  </div>  
+  <div class="views-field views-field-field-card-description">        <div class="field-content">A model from the Computer Science and Artificial Intelligence Laboratory identifies “serial hijackers” of internet IP addresses.</div>  </div></li>
+    		      <li class="views-row views-row-10 views-row-even views-row-last">
+	    
+          <a href="http://www.eecs.mit.edu/news-events/announcements/roundup-eecs-faculty-awards-prizes-fellowships-and-other-honors-2019-2020"><a href="http://www.eecs.mit.edu/news-events/announcements/roundup-eecs-faculty-awards-prizes-fellowships-and-other-honors-2019-2020"><img typeof="foaf:Image" src="http://www.eecs.mit.edu/sites/default/files/announcements/Freeman_William_Small.jpg" width="235" height="353" alt="" /></a>  </a>     
+  <div class="views-field views-field-field-card-video">        <div class="field-content"></div>  </div>  
+  <div>        <span class="card-title"><a href="http://www.eecs.mit.edu/news-events/announcements/roundup-eecs-faculty-awards-prizes-fellowships-and-other-honors-2019-2020" class="card-color-black">Roundup: EECS faculty awards, prizes, fellowships, and other honors, 2019-2020</a></span>  </div>  
+  <div class="views-field views-field-field-card-description">        <div class="field-content">EECS Professor William T. Freeman, who received a PAMI Distinguished Researcher Award from the IEEE Computer Society, is among several EECS faculty members honored during the current academic year. 
+</div>  </div></li>
+      </ul></div>    </div>
+  
+      <div class="item-list"><ul class="pager"><li class="pager-previous">&nbsp;</li><li class="pager-current">1 of 118</li><li class="pager-next"><a href="/homepage?page=1">››</a></li></ul></div>  
+  
+  
+  
+  
+</div>    </div>
+  </div>
+</div>
+  </div>
+</div>
+
+        
+      </section>
+
+      
+			</div><!--/#fixedContainer-->
+
+
+		
+
+			 <div id="bottomFooter">
+				<div class="footer-content">
+					<a href="http://www.mit.edu" target="_blank"><img src="/sites/all/themes/adaptivetheme/miteecs_adaptive/images/structure/mit-logo.png"></a>
+				</div>
+			  				<footer role="contentinfo">  <div class="region region-footer">
+    <div id="block-views-footer-block-block" class="block block-views">
+  <div class="block-inner clearfix">
+                <div class="block-content content">
+      <div class="view view-footer-block view-id-footer_block view-display-id-block view-dom-id-db637ff0a80c3173122b568dce392e00">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+          <p>MIT Electrical Engineering &amp; Computer Science | Room 38-401  |  77 Massachusetts Avenue  | Cambridge, MA 02139</p>
+    </div>
+    </div>
+  
+  
+  
+  
+  
+  </div>    </div>
+  </div>
+</div>
+  </div>
+</footer>
+			  			</div><!--/bottomFooter-->
+		</div><!--/.main-->
+
+
+    
+	</div><!--columns-inner-->
+
+
+
+  </div><!--/#columns-->
+
+
+
+</div><!--/#page-->
+
+
+
+
+
+	<script src="http://www.eecs.mit.edu/sites/default/files/js/js_8cGvg_QyhYZWs7wtCi7KmhV9JVYGNvxSCht7krDSKzM.js"></script>
+<script src="http://www.eecs.mit.edu/sites/default/files/js/js_ptR1ZjZnexk8gj2Q9mIgM2M_6ztR4ckK-i_6gzFmlNM.js"></script>
+<script src="http://www.eecs.mit.edu/sites/default/files/js/js_jYyf11FCrOcOCXrIZ9VWaILZoV6-G839HqAuxaEIMTg.js"></script>
+<script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-25880630-1", {"cookieDomain":"auto"});ga("set", "anonymizeIp", true);ga('create', 'UA-1592615-30',{'name':'mitsitewide'});ga("send", "pageview");ga('mitsitewide.send','pageview');</script>
+<script src="https://c328740.ssl.cf1.rackcdn.com/mathjax/latest/MathJax.js?config=default"></script>
+<script src="http://www.eecs.mit.edu/sites/default/files/js/js_ZFiM4oyOJEGLXKKHFnACnrgZ6SR6qg5t3PRFRBbHQ_g.js"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"miteecs_adaptive_production","theme_token":"rXXdG8vOLeendmaDM36oaEmPB1z7ZqZla7qFjTqKZDM","js":{"sites\/all\/themes\/adaptivetheme\/adaptivetheme\/js\/respond.js":1,"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/fitvids\/jquery.fitvids.js":1,"sites\/all\/modules\/fitvids\/fitvids.js":1,"misc\/vertical-tabs.js":1,"sites\/all\/modules\/panels\/js\/panels.js":1,"sites\/all\/modules\/views_infinite_scroll\/js\/jquery.autopager-1.0.0.js":1,"sites\/all\/modules\/views_infinite_scroll\/js\/views_infinite_scroll.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"0":1,"https:\/\/c328740.ssl.cf1.rackcdn.com\/mathjax\/latest\/MathJax.js?config=default":1,"sites\/all\/themes\/adaptivetheme\/miteecs_adaptive_production\/scripts\/8bc9aaa.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/calendar\/css\/calendar_multiday.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/fitvids\/fitvids.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/ckeditor.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"sites\/all\/modules\/custom\/shib_auth\/shib_auth.css":1,"sites\/all\/modules\/views_infinite_scroll\/css\/views_infinite_scroll.css":1,"sites\/all\/themes\/adaptivetheme\/miteecs_adaptive_production\/css\/at.base.css":1,"sites\/all\/themes\/adaptivetheme\/miteecs_adaptive_production\/css\/at.layout.css":1,"sites\/all\/themes\/adaptivetheme\/miteecs_adaptive_production\/css\/at.messages.css":1,"sites\/all\/themes\/adaptivetheme\/miteecs_adaptive_production\/css\/at.layout.ie.css":1,"sites\/all\/themes\/adaptivetheme\/miteecs_adaptive_production\/css\/at.settings.form.css":1,"sites\/all\/themes\/adaptivetheme\/miteecs_adaptive_production\/css\/reset.css":1,"sites\/all\/themes\/adaptivetheme\/miteecs_adaptive_production\/css\/html-elements.css":1,"sites\/all\/themes\/adaptivetheme\/miteecs_adaptive_production\/css\/forms.css":1,"sites\/all\/themes\/adaptivetheme\/miteecs_adaptive_production\/css\/tables.css":1,"sites\/all\/themes\/adaptivetheme\/miteecs_adaptive_production\/css\/fields.css":1,"sites\/all\/themes\/adaptivetheme\/miteecs_adaptive_production\/css\/page.css":1,"sites\/all\/themes\/adaptivetheme\/miteecs_adaptive_production\/css\/navigation.css":1,"sites\/all\/themes\/adaptivetheme\/miteecs_adaptive_production\/css\/articles.css":1,"sites\/all\/themes\/adaptivetheme\/miteecs_adaptive_production\/css\/comments.css":1,"sites\/all\/themes\/adaptivetheme\/miteecs_adaptive_production\/css\/blocks.css":1,"sites\/all\/themes\/adaptivetheme\/miteecs_adaptive_production\/css\/print.css":1,"sites\/all\/themes\/adaptivetheme\/miteecs_adaptive_production\/css\/miteecs_adaptive_production.responsive.style.css":1,"sites\/all\/themes\/adaptivetheme\/miteecs_adaptive_production\/css\/miteecs_adaptive_production.responsive.gpanels.css":1}},"views_infinite_scroll":[{"view_name":"cards","display":"homepage","pager_selector":"ul.pager","next_selector":"li.pager-next a:first","content_selector":"div.view-content\u003E.item-list \u003E *","items_selector":".views-row","img_path":"http:\/\/www.eecs.mit.edu\/sites\/all\/modules\/views_infinite_scroll\/images\/ajax-loader.gif"}],"fitvids":{"custom_domains":[],"selectors":["body\r","field_card_video\r",""],"simplifymarkup":1},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"urlIsAjaxTrusted":{"\/":true}});</script>
+  <script src="http://www.eecs.mit.edu/sites/default/files/js/js_RKHXJDFMzE4CJ_tTitL_gVNkNj6d2R_k4GgpZUz0vDg.js"></script>
+</body>
+</html>

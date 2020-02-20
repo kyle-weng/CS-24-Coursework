@@ -1,0 +1,706 @@
+<head>
+    <title>CS 24, Fall 2019</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link href='//cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.5.0/fullcalendar.css' rel='stylesheet' />
+    <link href='//cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.5.0/fullcalendar.print.css' rel='stylesheet' media='print' />
+    <link rel="stylesheet" type="text/css" href="css/style.css?v2" />
+    <link rel="stylesheet" type="text/css" href="css/color.css" />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore-min.js"></script>
+    <script src="js/polyfill.js"></script>
+    <script src="js/moment.min.js"></script>
+    <script src="js/main.js?v8"></script>
+    <script src="js/staff.js"></script>
+    <script src="js/quarter.js?v8"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-47971161-6', 'auto');
+      ga('require', 'displayfeatures');
+      ga('require', 'linkid', 'linkid.js');
+      ga('send', 'pageview');
+    </script>
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top device-fixed-height" role="navigation">
+<div class="header container">
+    <div id="header">
+        <div class="header-left">
+            <h1 class="course">
+                <a href="#">CS 24: Introduction to Computing Systems</a>
+            </h1>
+        </div>
+        <div class="header-right">
+            <ul id="navbar">
+                <li class="current nav"><a href="#home">Home</a></li>
+                <li class="nav"><a href="#events">Events</a></li>
+                <li class="nav"><a href="#help">Help</a></li>
+                <li class="nav"><a href="#staff">Staff</a></li>
+                <li class="nav"><a href="#schedule">Schedule</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+</nav>
+<div class="content container"> 
+    <div class="subheader">
+        <script type="text/javascript">document.write(quarter());</script>   
+    <!--
+        <div class="instructor">Adam Blank&nbsp;
+        <div class="instructor-email">(blank@caltech.edu)</div>
+        </div>
+    -->
+    </div>
+ 
+    <div class="unsection"></div>
+    <section id="announcements" class="hidden">
+    <h2>Announcements</h2>
+        <div class="level-one">
+            <ul class="announcements">
+            </ul>
+        </div>
+    </section>
+    <div class="unsection"></div>
+    <div style="margin-top: -85px"></div>
+
+    <section id="information">
+        <div class="level-one">
+            <p> Welcome to CS 24! We have put the most important links at the top.  Please check them out!</p>
+            <div class="button-bar">
+                <div class="btn-group">
+                    <a href="documents/syllabus.pdf" class="pdf btn btn-default btn-lg link-button">Syllabus</a>
+                    <a href="documents/collaboration_policy.pdf" class="pdf btn btn-default btn-lg link-button">Collaboration Policy</a>
+                    <a href="code-quality" class="html btn btn-default btn-lg link-button">Code Quality Guidelines</a>
+            </div>
+            <div style="display: block; min-height: 20px"></div>
+        </div>
+    </section>
+
+    <div style="margin-top: -110px"></div>
+    <section id="events">
+        <div class="level-one">
+            <h2>Events</h2>
+            <div class="row">
+                <div class="col-md-1">
+                </div>
+                <div class="col-md-10">
+                    <div id="calendar" ></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="unsection"></div>
+
+
+    <section id="help">
+    <div style="margin-top: -25px"></div>
+    <h2 id="help">Wellness and Inclusion</h2>
+        <div class="level-one">
+            <div class="topic-description">
+            It is very important to us that you succeed in CS 24.  We provide many extra resources to help you.  Adam and the TAs 
+            hold many office hours, and we have a message board called 
+            <a class="external" href="http://piazza.com/caltech/fall2019/cs24">
+                <button type="button" class="btn btn-default btn-lg link-button">
+                    <img class="link-button" src="images/piazza.png"/> Piazza 
+                </button></a>.
+            <br>
+            <br>
+
+            It is also very important to us that you maintain your mental wellness throughout the course. A few points are not worth losing sleep over.
+            Everyone on the course staff is available to chat, and you can always attend office hours for a non-academic conversation if necessary.
+
+            You can also visit the <a class="external" href="http://counseling.caltech.edu/">counseling center</a> if you find you need help beyond the course staff.
+
+            If you have a temporary health condition or permanent disability (either mental health or physical health related), you should 
+            contact <a class="external" href="http://disability.caltech.edu/">disability services</a> if you have not already. Additionally, if there is 
+            something we can do to make your experience better, please let us know.
+
+            <br>
+            <br>
+
+            Diversity, inclusion, and belonging are all core values of this course. 
+            All participants in this course must be treated with respect by other members of the community in accordance with the 
+            honor code.  If you feel unwelcome or unsafe in any way, no matter how minor, we encourage you to talk to Adam 
+            or one of the Deans.  We view these sorts of honor code violations as 
+            completely unacceptable, and we take them very seriously.
+            </div>
+        </div>
+
+        <div class="unsection"></div>
+
+
+    <section id="staff">
+    <div style="margin-top: -60px"></div>
+    <div class="level-one">
+        <h2 id="staff">Course Staff</h2>
+        
+<h3>Instructor</h3>
+<div class="staff-group">
+    <div class="staff">
+        <div class="staff-name"><a target="_blank" href="http://countablethoughts.com" style="font-size: 16px">Adam Blank</a></div>
+        <div class="staff-picture"><img src="staff/images/blank.png"/></div>
+        <div class="staff-pronouns">he/him/his</div>
+        <div class="staff-office">Annenberg 115</div>
+        <div class="staff-email"><script type="text/javascript">document.write(Course.Staff.instructor_email());</script></div>
+        <div class="staff-phone">(626) 395-1765</div>
+    </div>
+</div>
+<h3>Teaching Assistants</h3>
+<div class="staff-group">
+    <script>Course.Staff.generateTAs()</script>
+</div>
+<h3>Dedicated Dean's Tutors</h3>
+<div class="staff-group">
+    <script>Course.Staff.generateTutors()</script>
+</div>
+
+    </div>
+    </section>
+    <div class="unsection"></div>
+
+    <section id="schedule">
+        <div class="level-one" style="margin-top: -20px">
+            <h2 style="float: left">Schedule</h2>
+            <ul class="slides topic-list">
+                <li link="week1">Representation</li>
+                <li link="week2">x86-64</li>
+                <li link="week3">Dynamic Memory</li>
+                <li link="week5">Exceptional Control Flow</li>
+                <li link="week6">Virtual Memory</li>
+                <li link="week7">Meltdown</li>
+                <li link="week8">Concurrency and Synchronizatiion</li>
+            </ul>
+        </div>
+        <div style="margin-bottom: -20px" class="" id="week1">&nbsp;</div>
+            <div class="calendar level-one">
+                <div class="scroll-navs"></div>
+                <div class="row header">
+                    <div class="sched-lecnum sched-header">#</div>
+                    <div class="sched-day sched-header">Day</div>
+                    <div class="sched-topic sched-header">Topic</div>
+                    <div class="sched-documents sched-header">Assessments</div>
+                </div>
+                
+<div class="row">
+    <script>Course.nextDate();</script>
+    <div class="sched-topic" recitation="01">
+        No Recitation!
+    </div>
+    <div class="sched-documents middle">
+   </div>
+</div>
+<div class="row">
+    <script>Course.nextDate();</script>
+    <div class="sched-topic" lecture="01">
+        Perspectives on Computing Systems
+        <div class="slides">
+<ul><li><a href="/cs24/19fa/lectures/"> Parent Directory</a></li>
+<li><a href="intro.pdf"> intro.pdf</a></li>
+<li><a href="intro-6up.pdf"> intro-6up.pdf</a></li>
+</ul>
+</div>
+
+        <div class="read">CS:APP &sect; 1.1, 2.1-2.1.5</div>
+    </div>
+    <div class="sched-documents middle">
+   </div>
+</div>
+<div class="row">
+    <script>Course.nextDate();</script>
+    <div class="sched-topic" lecture="02">
+        Memory and Fixed-Width Integers
+        <div class="slides">
+<ul><li><a href="/cs24/19fa/lectures/"> Parent Directory</a></li>
+<li><a href="memory-integers-ink.pdf"> memory-integers-ink.pdf</a></li>
+</ul>
+</div>
+
+        <div class="read">CS:APP &sect; 2.1.6-2.3</div>
+    </div>
+    <div class="sched-documents middle">
+        <section class="link-homework" name="Specification" number="project00" late="2" title="pretest" link="project/00" due="10/04/19 11:30pm"></section>
+    </div>
+</div>
+
+<div class="row">
+    <script>Course.nextDate();</script>
+    <div class="sched-topic" lecture="03">
+        x86-64 Basics 
+        <div class="slides">
+<ul><li><a href="/cs24/19fa/lectures/"> Parent Directory</a></li>
+<li><a href="machine-basics.pdf"> machine-basics.pdf</a></li>
+</ul>
+</div>
+
+        <div class="read">CS:APP &sect; 3.2-3.5</div>
+    </div>
+    <div class="sched-documents middle">
+    </div>
+</div>
+<div class="row">
+    <script>Course.nextDate();</script>
+    <div class="sched-topic" section="02">
+        Git Recitation
+        <div class="section-handouts">
+<ul><li><a href="/cs24/19fa/sections/"> Parent Directory</a></li>
+<li><a href="git.pdf"> git.pdf</a></li>
+</ul>
+</div>
+
+    </div>
+    <div class="sched-documents middle">
+   </div>
+</div>
+<div class="row">
+    <script>Course.nextDate();</script>
+    <div class="sched-topic" lecture="04">
+        x86-64 Control Flow
+        <div class="slides">
+<ul><li><a href="/cs24/19fa/lectures/"> Parent Directory</a></li>
+<li><a href="machine-continued.pdf"> machine-continued.pdf</a></li>
+</ul>
+</div>
+
+        <div class="read">CS:APP &sect; 3.6</div>
+    </div>
+    <div class="sched-documents middle">
+    </div>
+</div>
+<div class="row">
+    <script>Course.nextDate();</script>
+    <div class="sched-topic" lecture="05">
+        x86-64 Procedures
+        <div class="slides">
+<ul><li><a href="/cs24/19fa/lectures/"> Parent Directory</a></li>
+<li><a href="machine-procedures.pdf"> machine-procedures.pdf</a></li>
+</ul>
+</div>
+
+        <div class="read">CS:APP &sect; 3.7</div>
+    </div>
+    <div class="sched-documents middle">
+        <section class="link-homework" name="Specification" number="project01" late="2" title="jvm" link="project/01" due="10/11/19 11:30pm"></section>
+    </div>
+</div>
+<div class="row">
+    <script>Course.nextDate();</script>
+    <div class="sched-topic" lecture="06">
+        x86-64 Data
+        <div class="slides">
+<ul><li><a href="/cs24/19fa/lectures/"> Parent Directory</a></li>
+<li><a href="gcd.pdf"> gcd.pdf</a></li>
+<li><a href="exercises.pdf"> exercises.pdf</a></li>
+<li><a href="asm.pdf"> asm.pdf</a></li>
+</ul>
+</div>
+
+        <div class="read">CS:APP &sect; 3.8-3.9</div>
+    </div>
+    <div class="sched-documents middle">
+    </div>
+</div>
+<div class="row">
+    <script>Course.nextDate();</script>
+    <div class="sched-topic" section="03">
+        GDB Recitation 
+        <div class="section-handouts">
+<ul><li><a href="/cs24/19fa/sections/"> Parent Directory</a></li>
+<li><a href="gdb.pdf"> gdb.pdf</a></li>
+</ul>
+</div>
+
+    </div>
+    <div class="sched-documents middle">
+   </div>
+</div>
+<div class="row">
+    <script>Course.nextDate();</script>
+    <div class="sched-topic" lecture="07">
+        Security: Buffer Overflows
+        <div class="slides">
+<ul><li><a href="/cs24/19fa/lectures/"> Parent Directory</a></li>
+<li><a href="buffer-overflow.pdf"> buffer-overflow.pdf</a></li>
+</ul>
+</div>
+
+        <div class="code">
+<ul><li><a href="/cs24/19fa/lectures/07/"> Parent Directory</a></li>
+<li><a href="buf.c"> buf.c</a></li>
+<li><a href="in.sh"> in.sh</a></li>
+</ul>
+</div>
+
+        <div class="read">CS:APP &sect; 3.10</div>
+    </div>
+    <div class="sched-documents middle">
+    </div>
+</div>
+<div class="row">
+    <script>Course.nextDate();</script>
+    <div class="sched-topic" lecture="08">
+        Dynamic Memory: Basic
+        <div class="slides">
+<ul><li><a href="/cs24/19fa/lectures/"> Parent Directory</a></li>
+<li><a href="dynamic-memory.pdf"> dynamic-memory.pdf</a></li>
+<li><a href="dynamic-memory-6up.pdf"> dynamic-memory-6up.pdf</a></li>
+</ul>
+</div>
+
+        <div class="code">
+<ul><li><a href="/cs24/19fa/lectures/08/"> Parent Directory</a></li>
+<li><a href="Makefile"> Makefile</a></li>
+<li><a href="mm_bump.c"> mm_bump.c</a></li>
+<li><a href="mm_implicit_opt.c"> mm_implicit_opt.c</a></li>
+<li><a href="mm_implicit_simple.c"> mm_implicit_simple.c</a></li>
+</ul>
+</div>
+
+        <div class="read">CS:APP &sect; 9.9</div>
+    </div>
+    <div class="sched-documents middle">
+        <section class="link-homework" name="Specification" number="project02" late="2" title="bomb" link="project/02" due="10/18/19 11:30pm"></section>
+    </div>
+</div>
+
+<div class="row">
+    <script>Course.nextDate();</script>
+    <div class="sched-topic" lecture="09">
+        Dynamic Memory: Advanced
+        <div class="slides">
+<ul><li><a href="/cs24/19fa/lectures/"> Parent Directory</a></li>
+<li><a href="malloc-tradeoffs.pdf"> malloc-tradeoffs.pdf</a></li>
+</ul>
+</div>
+
+        <div class="read">CS:APP &sect; 9.9</div>
+    </div>
+    <div class="sched-documents middle">
+    </div>
+</div>
+<div class="row">
+    <script>Course.nextDate();</script>
+    <div class="sched-topic" recitation="04">
+        No Recitation!
+    </div>
+    <div class="sched-documents middle">
+   </div>
+</div>
+
+<div class="row">
+    <script>Course.nextDate();</script>
+    <div class="sched-topic" lecture="10">
+        Garbage Collection
+        <div class="slides">
+<ul><li><a href="/cs24/19fa/lectures/"> Parent Directory</a></li>
+<li><a href="gc.pdf"> gc.pdf</a></li>
+</ul>
+</div>
+
+        <div class="read">CS:APP &sect; 9.10</div>
+    </div>
+    <div class="sched-documents middle">
+    </div>
+</div>
+<div class="row">
+    <script>Course.nextDate();</script>
+    <div class="sched-topic" lecture="11">
+        Linking and Loading
+        
+        <div class="read">CS:APP &sect; 7.1-7.2, 7.8-7.9</div>
+    </div>
+    <div class="sched-documents middle">
+        <section class="link-homework" name="Specification" number="project03" late="2" title="asmgen, buf" link="project/03" due="10/25/19 11:30pm"></section>
+    </div>
+</div>
+
+<div class="row">
+    <script>Course.nextDate();</script>
+    <div class="sched-topic" lecture="12">
+        ECF: Exceptions
+        <div class="slides">
+<ul><li><a href="/cs24/19fa/lectures/"> Parent Directory</a></li>
+<li><a href="ecf.pdf"> ecf.pdf</a></li>
+</ul>
+</div>
+
+        <div class="read">CS:APP &sect; 8.1</div>
+    </div>
+    <div class="sched-documents middle">
+    </div>
+</div>
+<div class="row">
+    <script>Course.nextDate();</script>
+    <div class="sched-topic" recitation="05">
+        Pointer Arithmetic Recitation
+    </div>
+    <div class="sched-documents middle">
+   </div>
+</div>
+<div class="row">
+    <script>Course.nextDate();</script>
+    <div class="sched-topic" lecture="13">
+        ECF: Processes
+        <div class="slides">
+<ul><li><a href="/cs24/19fa/lectures/"> Parent Directory</a></li>
+<li><a href="linux-processes.pdf"> linux-processes.pdf</a></li>
+</ul>
+</div>
+
+        <div class="read">CS:APP &sect; 8.2-8.3</div>
+    </div>
+    <div class="sched-documents middle">
+    </div>
+</div>
+<div class="row">
+    <script>Course.nextDate();</script>
+    <div class="sched-topic" lecture="14">
+        ECF: Signals
+        <div class="slides">
+<ul><li><a href="/cs24/19fa/lectures/"> Parent Directory</a></li>
+<li><a href="signals.pdf"> signals.pdf</a></li>
+</ul>
+</div>
+
+        <div class="code">
+<ul><li><a href="/cs24/19fa/lectures/14/"> Parent Directory</a></li>
+<li><a href="async_unsafe.c"> async_unsafe.c</a></li>
+<li><a href="haha.c"> haha.c</a></li>
+<li><a href="reborn1.c"> reborn1.c</a></li>
+<li><a href="reborn2.c"> reborn2.c</a></li>
+<li><a href="timeout.c"> timeout.c</a></li>
+</ul>
+</div>
+
+        <div class="read">CS:APP &sect; 8.4-8.5</div>
+    </div>
+    <div class="sched-documents middle">
+    </div>
+</div>
+
+<div class="row">
+    <script>Course.nextDate();</script>
+    <div class="sched-topic" lecture="15">
+        Locality &amp; The Memory Hierarchy 
+        <div class="slides">
+<ul><li><a href="/cs24/19fa/lectures/"> Parent Directory</a></li>
+<li><a href="memory-hierarchy.pdf"> memory-hierarchy.pdf</a></li>
+</ul>
+</div>
+
+        <div class="read">CS:APP &sect; 9.1-9.2, 9.4-9.5</div>
+    </div>
+    <div class="sched-documents middle">
+    </div>
+</div>
+<div class="row">
+    <script>Course.nextDate();</script>
+    <div class="sched-topic" recitation="06">
+        No Recitation!
+    </div>
+    <div class="sched-documents middle">
+   </div>
+</div>
+<div class="row">
+    <script>Course.nextDate();</script>
+    <div class="sched-topic" lecture="16">
+        <code>malloc</code> Office Hours
+        
+    </div>
+    <div class="sched-documents middle">
+    </div>
+</div>
+<div class="row">
+    <script>Course.nextDate();</script>
+    <div class="sched-topic" lecture="17">
+        Cache Memories 
+        <div class="slides">
+<ul><li><a href="/cs24/19fa/lectures/"> Parent Directory</a></li>
+<li><a href="caches.pdf"> caches.pdf</a></li>
+</ul>
+</div>
+
+        <div class="read">CS:APP &sect; 9.3, 9.6</div>
+    </div>
+    <div class="sched-documents middle">
+        <section class="link-homework" name="Specification" number="project04" late="2" title="malloc" link="homework/project04/spec.pdf" due="11/08/19 11:30pm"></section>
+    </div>
+</div>
+
+<div class="row">
+    <script>Course.nextDate();</script>
+    <div class="sched-topic" lecture="18">
+        Virtual Memory: What &amp; Why
+        
+        <div class="read">CS:APP &sect; 6.2-6.3</div>
+    </div>
+    <div class="sched-documents middle">
+    </div>
+</div>
+<div class="row">
+    <script>Course.nextDate();</script>
+    <div class="sched-topic" recitation="07">
+        No Recitation!
+    </div>
+    <div class="sched-documents middle">
+   </div>
+</div>
+<div class="row">
+    <script>Course.nextDate();</script>
+    <div class="sched-topic" lecture="19">
+        Virtual Memory: How
+        
+        <div class="read">CS:APP &sect; 6.4</div>
+    </div>
+    <div class="sched-documents middle">
+    </div>
+</div>
+<div class="row">
+    <script>Course.nextDate();</script>
+    <div class="sched-topic" lecture="20">
+        Modern Processors and Performance
+        
+        <div class="read">CS:APP &sect; 5.2-5.3, 5.7</div>
+    </div>
+    <div class="sched-documents middle">
+        <section class="link-homework" name="Specification" number="project05" late="4" title="gc" link="homework/project05/spec.pdf" due="11/15/19 11:30pm"></section>
+    </div>
+</div>
+
+<div class="row">
+    <script>Course.nextDate();</script>
+    <div class="sched-topic" lecture="21">
+        Security: Meltdown
+        
+        <div class="read"><a target="_blank" href="https://en.wikipedia.org/wiki/Meltdown_(security_vulnerability)">Wikipedia</a></div>
+    </div>
+    <div class="sched-documents middle">
+    </div>
+</div>
+<div class="row">
+    <script>Course.nextDate();</script>
+    <div class="sched-topic" recitation="08">
+        No Recitation!
+    </div>
+    <div class="sched-documents middle">
+   </div>
+</div>
+
+<div class="row">
+    <script>Course.nextDate();</script>
+    <div class="sched-topic" lecture="22">
+        Concurrent Programming: Processes &amp; Threads
+        <div class="code">
+<ul><li><a href="/cs24/19fa/lectures/22/"> Parent Directory</a></li>
+<li><a href="sum.c"> sum.c</a></li>
+<li><a href="sum0.c"> sum0.c</a></li>
+<li><a href="sum1.c"> sum1.c</a></li>
+<li><a href="sum2.c"> sum2.c</a></li>
+</ul>
+</div>
+
+        <div class="read">CS:APP &sect; 12.1, 12.3.1</div>
+    </div>
+    <div class="sched-documents middle">
+    </div>
+</div>
+<div class="row">
+    <script>Course.nextDate();</script>
+    <div class="sched-topic" lecture="23">
+        Concurrent Programming: pthreads &amp; mutexes
+        
+        <div class="read">CS:APP &sect; 12.3.2-12.3.8, 12.4</div>
+    </div>
+    <div class="sched-documents middle">
+        <section class="link-homework" name="Specification" number="project06" late="4" title="meltdown" link="homework/project06/spec.pdf" due="11/22/19 11:30pm"></section>
+    </div>
+</div>
+<div class="row">
+    <script>Course.nextDate();</script>
+    <div class="sched-topic" lecture="24">
+        Concurrent Programming: conditional variables, semaphores
+        
+        <div class="read">CS:APP &sect; 12.5</div>
+    </div>
+    <div class="sched-documents middle">
+    </div>
+</div>
+
+<div class="row">
+    <script>Course.nextDate();</script>
+    <div class="sched-topic" recitation="08">
+        No Recitation!
+    </div>
+    <div class="sched-documents middle">
+   </div>
+</div>
+<script>Course.nextHoliday();</script>
+<script>Course.nextHoliday();</script>
+
+<div class="row">
+    <script>Course.nextDate();</script>
+    <div class="sched-topic" lecture="25">
+        Concurrent Programming: Pitfalls
+        <div class="slides">
+<ul><li><a href="/cs24/19fa/lectures/"> Parent Directory</a></li>
+<li><a href="concurrency.pdf"> concurrency.pdf</a></li>
+</ul>
+</div>
+
+        <div class="read">CS:APP &sect; 12.7</div>
+    </div>
+    <div class="sched-documents middle">
+    </div>
+</div>
+
+<div class="row">
+    <script>Course.nextDate();</script>
+    <div class="sched-topic" recitation="09">
+        No Recitation!
+    </div>
+    <div class="sched-documents middle">
+   </div>
+</div>
+
+<div class="row">
+    <script>Course.nextDate();</script>
+    <div class="sched-topic" lecture="26">
+        Final Exam Review
+        
+    </div>
+    <div class="sched-documents middle">
+    </div>
+</div>
+<div class="row">
+    <script>Course.nextDate();</script>
+    <div class="sched-topic" lecture="27">
+        Victory Lap
+        
+    </div>
+    <div class="sched-documents middle">
+        <section class="link-homework" name="Specification" number="project07" late="2" title="proxy" link="homework/project07/spec.pdf" due="12/06/19 11:30pm"></section>
+    </div>
+</div>
+
+<script>Course.nextHoliday('<section class="link-homework" name="Final" number="exam" late="0" title="final" link="https://grinch.caltech.edu/final/cs24" due="12/12/19 11:30pm"></section>');</script>
+
+            </div>
+        </div>
+    </section>
+</div>
+<script>Course.doneDates();</script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="js/gadown.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.5.1/fullcalendar.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ical.js/1.2.2/ical.min.js"></script>
+<script src="js/ical_events.js"></script>
+<script src="js/ical_fullcalendar.js"></script>
+<script src="js/ics.deps.min.js"></script>
+<script src="js/ics.js"></script>
+<script src="js/calendar.js?v2"></script>
+<script src="js/display_calendar.js"></script>
+</body>

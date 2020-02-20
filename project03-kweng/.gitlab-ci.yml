@@ -1,0 +1,2 @@
+asmgen:
+    script: "/testers/cs24/project03/asmgen/test"

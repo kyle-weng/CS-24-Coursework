@@ -1,0 +1,7 @@
+gdb.execute("set confirm off")
+gdb.execute("set pagination off")
+gdb.execute("b backtrace")
+gdb.execute("r")
+gdb.execute("bt")
+gdb.execute("c")
+gdb.execute("q")

@@ -1,0 +1,18 @@
+    # Taken from https://projecteuler.net/problem=30
+#443839
+
+000 LET X = 1
+010 LET R = 0
+020 LET X = X + 1
+030 IF X > 1000000 THEN GOTO 140
+040 LET Y = X
+050 LET S = 0
+060 GOTO 080
+070 LET Y = Z
+080 LET Z = Y / 10
+090 LET D = Y - Z * 10
+100 LET S = S + D * D * D * D * D
+110 IF Z > 0 THEN GOTO 070
+120 IF S = X THEN LET R = R + X
+130 GOTO 020
+140 PRINT R

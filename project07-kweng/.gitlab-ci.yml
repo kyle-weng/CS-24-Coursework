@@ -1,0 +1,2 @@
+proxy:
+    script: "/testers/cs24/project07/proxy/test"

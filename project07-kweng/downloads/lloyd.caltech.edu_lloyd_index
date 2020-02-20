@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- jQuery -->
+    <script src="/lloyd/static/vendor/jquery/jquery.min.js"></script>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+    <title>Lloyd House</title>
+    
+	<link rel="shortcut icon" href="/lloyd/static/img/lloydicon.ico">
+
+    <!-- Bootstrap Core CSS -->
+    <link href="/lloyd/static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="/lloyd/static/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- Theme CSS -->
+    <link href="/lloyd/static/css/agency.css" rel="stylesheet">
+</head>
+
+
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="/lloyd/index">Lloyd House</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a href="/lloyd/calendar">Calendar</a>
+                    </li>
+                    <li>
+                        <a href="/lloyd/houselist">Houselist</a>
+                    </li>
+                    <li>
+                        <a href="/lloyd/bylaws">Bylaws</a>
+                    </li>
+                    <li>
+                        <a href="/lloyd/contact">Contact</a>
+                    </li>
+					<li>
+						<a href="/lloyd/alleymaps">Alley Maps</a>
+					</li>
+					<li>
+						<a href="/lloyd/account">Account</a>
+					</li>
+                    <li>
+                        
+                        <a style="color: gold;" href="/lloyd/login">Login</a>
+                        
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <body id="page-top">
+    
+    
+    <header>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-lead-in">I Llllive and Die</div>
+                <div class="intro-heading">For Those I Llllove</div>
+                <a href="/rotation/" class="page-scroll btn btn-xl">Well Shiet</a>
+            </div>
+        </div>
+    </header>
+
+
+<!--     <section id="events">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Events</h2>
+                    <h3 class="section-subheading text-muted">happening eventually ya know</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="timeline">
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="static/img/caroline.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>first</h4>
+                                    <h4 class="subheading">omgggggggggg</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">inventory</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="static/img/shieeet.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>second</h4>
+                                    <h4 class="subheading">idk lol</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">im RATTLED</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="static/img/blun.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>third</h4>
+                                    <h4 class="subheading">its quite unclear</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">deeeener</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="timeline-inverted">
+                            <a href="calendar">
+                                <div class="timeline-image">
+                                    <h4>If u really
+                                        <br> care there's
+                                        <br>more shiet</h4>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+
+    
+    <footer>
+        <div class="container">
+            <span class="copyright">Copyright &copy; Anish Thilagar 2016</span>
+        </div>
+    </footer>
+
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/lloyd/static/vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="/lloyd/static/js/jqBootstrapValidation.js"></script>
+    <script src="/lloyd/static/js/contact_me.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="/lloyd/static/js/agency.min.js"></script>
+</body>
+
+</html>

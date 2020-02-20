@@ -1,0 +1,15 @@
+build:
+    stage: build
+    script: "/testers/cs24/project06/build/test"
+    artifacts:
+        paths:
+            - meltdown.iso
+        expire_in: 10 mins
+
+execute:
+    stage: test
+    tags:
+        - meltdown
+    variables:
+        GIT_STRATEGY: none
+    script: "/testers/cs24/project06/execute/test"
